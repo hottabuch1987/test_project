@@ -1,0 +1,49 @@
+# pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Virtual environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Database and logs
+dump.rdb
+debug.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific ignores
+*.log
+*.sqlite3
+*.pid
+*.egg-info/
+dist/
+build/
